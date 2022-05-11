@@ -20,7 +20,7 @@ const index = () => {
 
               <div className="col-12 d-block d-sm-none">
                 <img
-                  src={process.env.PUBLIC_URL + "/img/hero/img-mobile.jpg"}
+                  src={process.env.PUBLIC_URL + "/img/hero/Mobile.jpg"}
                   className="img-fluid main-img-mobile"
                   alt="about avatar"
                 />
@@ -33,7 +33,7 @@ const index = () => {
               {/* End personal info */}
 
               <div className="col-12 mt-1">
-                <a className="button" href="/img/cv.jpg" download>
+                <a className="button" href="/img/cv.webp" download>
                   <span className="button-text">Download Resume</span>
                   <span className="button-icon fa fa-download"></span>
                 </a>
