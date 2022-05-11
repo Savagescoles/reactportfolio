@@ -20,7 +20,7 @@ const index = () => {
 
               <div className="col-12 d-block d-sm-none">
                 <img
-                  src={process.env.PUBLIC_URL + "/img/hero/Mobile.jpg"}
+                  src={process.env.PUBLIC_URL + "/img/hero/Mobile.PNG"}
                   className="img-fluid main-img-mobile"
                   alt="about avatar"
                 />
