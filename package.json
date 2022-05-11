@@ -2,7 +2,7 @@
   "name": "tunis",
   "version": "1.1.1",
   "private": true,
-  "homepage": "https://savagescoles.github.io/home-light", 
+  "homepage": "https://savagescoles.github.io/reactportfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -51,6 +51,7 @@
     ]
   },
   "devDependencies": {
-    "direction-reveal": "^2.0.2"
+    "direction-reveal": "^2.0.2",
+    "gh-pages": "^4.0.0"
   }
 }
