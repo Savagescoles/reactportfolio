@@ -3,11 +3,11 @@ import Modal from "react-modal";
 import Index from "../../components/about/index";
 
 const heroContent = {
-  heroImage: "/img/hero/dark.png",
-  heroMobileImage: "img-mobile",
+  heroImage: "/img/hero/Ben.jpg",
+  heroMobileImage: "/img/hero/Mobile.JPG",
   heroTitleName: "Ben Savage",
-  heroDesignation: "a full stack developer",
-  heroDescriptions: `IT guy`,
+  heroDesignation: "Full Stack Developer",
+  heroDescriptions: `PNW Developer, Infrastructure Engineer and CEO`,
   heroBtn: "more about me",
 };
 
