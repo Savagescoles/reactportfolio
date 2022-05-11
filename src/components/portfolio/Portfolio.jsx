@@ -78,7 +78,7 @@ const Portfolio = () => {
               data-aos-delay="100"
             >
               <figure onClick={toggleModalTwo}>
-                <img src={process.env.PUBLIC_URL + "/img/projects/project2.JPG"} alt="JS Quiz" />
+                <img src={process.env.PUBLIC_URL + "/img/projects/project2.jpg"} alt="JS Quiz" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title"> JS Quiz</span>
                 </div>
