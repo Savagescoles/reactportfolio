@@ -1,35 +1,24 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Hero from "../../components/hero/HeroLight";
+import Hero from "../../components/hero/Hero";
 import Index from "../../components/about/index";
 import Address from "../../components/Address";
-import Portfolio from "../../components/portfolio/PortfolioLight";
-import Blog from "../../components/blog/BlogLight";
+import Portfolio from "../../components/portfolio/Portfolio";
 import Contact from "../../components/Contact";
 import Social from "../../components/Social";
-import AnimatedCursor from "react-animated-cursor";
 
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
   { icon: "fa-user", menuName: "About" },
   { icon: "fa-briefcase", menuName: "Portfolio" },
   { icon: "fa-envelope-open", menuName: "Contact" },
-  { icon: "fa-comments", menuName: "Blog" },
+
 ];
 
-const HomeLight = () => {
-  document.body.classList.add("light");
-
+const Home = () => {
   return (
-    <div className="green">
-      <AnimatedCursor
-        innerSize={8}
-        outerSize={44}
-        color="114, 182, 38"
-        outerAlpha={0.3}
-        innerScale={0.7}
-        outerScale={1.2}
-      />
+    <div className="yellow">
+      
       <Tabs>
         <div className="header">
           <TabList className=" icon-menu  revealator-slideup revealator-once revealator-delay1">
@@ -64,7 +53,7 @@ const HomeLight = () => {
                 <h1>
                   ABOUT <span>ME</span>
                 </h1>
-                <span className="title-bg">Resume</span>
+                <span className="title-bg">About Me</span>
               </div>
               {/* End title */}
               <Index />
@@ -73,7 +62,7 @@ const HomeLight = () => {
           {/* About Content Ends */}
 
           {/* Portfolio Content Starts */}
-          <TabPanel className="portfolio">
+          <TabPanel className="portfolio professional">
             <div
               className="title-section text-left text-sm-center"
               data-aos="fade-up"
@@ -118,12 +107,10 @@ const HomeLight = () => {
                 {/*  Left Side Starts */}
                 <div className="col-12 col-lg-4">
                   <h3 className="text-uppercase custom-title mb-0 ft-wt-600 pb-3">
-                    Don't be shy !
+                    Aperture into my world
                   </h3>
                   <p className="open-sans-font mb-4">
-                    Feel free to get in touch with me. I am always open to
-                    discussing new projects, creative ideas or opportunities to
-                    be part of your visions.
+                    Feel free to get in touch with me. I'm always open to new paths of learning.
                   </p>
                   <Address />
                   {/* End Address */}
@@ -144,35 +131,11 @@ const HomeLight = () => {
           </TabPanel>
           {/* Contact Content Ends */}
 
-          {/* Blog Content Starts */}
-          <TabPanel className="blog">
-            <div
-              className="title-section text-left text-sm-center "
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <h1>
-                my <span>blog</span>
-              </h1>
-              <span className="title-bg">posts</span>
-            </div>
-            <div
-              className="container"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              {/*  Articles Starts  */}
-              <div className="row pb-50">
-                <Blog />
-              </div>
-              {/* Articles Ends */}
-            </div>
-          </TabPanel>
-          {/* Blog Content Ends */}
+          
         </div>
       </Tabs>
     </div>
   );
 };
 
-export default HomeLight;
+export default Home;

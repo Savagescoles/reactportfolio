@@ -1,20 +1,17 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import Index from "../about/index";
+import Index from "../../components/about/index";
 
 const heroContent = {
-  heroImage: "img/hero/light.jpg",
-  heroMobileImage: "img-mobile-light",
-  heroTitleName: "lucy milner",
-  heroDesignation: "web designer",
-  heroDescriptions: `I'm a Tunisian based web designer & front‑end developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
+  heroImage: "/img/hero/dark.png",
+  heroMobileImage: "img-mobile",
+  heroTitleName: "Ben Savage",
+  heroDesignation: "a full stack developer",
+  heroDescriptions: `IT guy`,
   heroBtn: "more about me",
 };
 
-const HeroLight = () => {
+const Hero = () => {
   const [isOpen, setIsOpen] = useState(false);
   function toggleModalOne() {
     setIsOpen(!isOpen);
@@ -34,7 +31,7 @@ const HeroLight = () => {
         <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
           <div>
             <img
-              src={`img/hero/${heroContent.heroMobileImage}.jpg`}
+              src={`img/hero/${heroContent.heroMobileImage}.png`}
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="hero man"
             />
@@ -57,8 +54,8 @@ const HeroLight = () => {
         isOpen={isOpen}
         onRequestClose={toggleModalOne}
         contentLabel="My dialog"
-        className="custom-modal dark light"
-        overlayClassName="custom-overlay"
+        className="custom-modal dark hero"
+        overlayClassName="custom-overlay dark"
         closeTimeoutMS={500}
       >
         <div>
@@ -67,7 +64,7 @@ const HeroLight = () => {
           </button>
           {/* End close icon */}
 
-          <div className="box_inner about green">
+          <div className="box_inner about">
             <div data-aos="fade-up" data-aos-duration="1200">
               <div className="title-section text-left text-sm-center">
                 <h1>
@@ -87,4 +84,4 @@ const HeroLight = () => {
   );
 };
 
-export default HeroLight;
+export default Hero;

@@ -7,7 +7,7 @@ const NotFound = () => {
       <div
         className="hero bg-image"
         style={{
-          backgroundImage: `url(${process.env.PUBLIC_URL + "img/1.jpg"})`,
+          backgroundImage: `url(${process.env.PUBLIC_URL + "/img/1.jpg"})`,
         }}
       >
         <div className="content">
@@ -24,7 +24,7 @@ const NotFound = () => {
             data-aos-duration="1200"
             data-aos-delay="100"
           >
-            <Link to="/">BACK TO HOME</Link>
+            <Link to="/aperture">BACK TO HOME</Link>
           </div>
           {/* End purchase_button */}
         </div>

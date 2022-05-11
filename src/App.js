@@ -6,7 +6,6 @@ import "aos/dist/aos.css";
 import AnimatedCursor from "react-animated-cursor";
 
 const App = () => {
-  // this for animation
   useEffect(() => {
     AOS.init();
   }, []);
