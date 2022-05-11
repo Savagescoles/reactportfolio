@@ -4,7 +4,7 @@ import Index from "../../components/about/index";
 
 const heroContent = {
   heroImage: "/img/hero/Ben.jpg",
-  heroMobileImage:"BenMini.JPG",
+  heroMobileImage:"/img/hero/Mobile.JPG",
   heroTitleName: "Ben Savage",
   heroDesignation: "Full Stack Developer",
   heroDescriptions: `PNW Developer, Infrastructure Engineer and CEO`,
@@ -31,7 +31,7 @@ const Hero = () => {
         <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
           <div>
             <img
-              src={`img/hero/${heroContent.heroMobileImage}`}
+              src={heroContent.heroMobileImage}
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="hero man"
             />
