@@ -24,7 +24,7 @@ const NotFound = () => {
             data-aos-duration="1200"
             data-aos-delay="100"
           >
-            <Link to="/aperture">BACK TO HOME</Link>
+            <Link to="/reactportfolio">BACK TO HOME</Link>
           </div>
           {/* End purchase_button */}
         </div>
