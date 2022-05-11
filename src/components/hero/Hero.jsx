@@ -30,9 +30,8 @@ const Hero = () => {
         ></div>
         <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
           <div>
-            <img src= "{require('/img/hero/Mobile.JPG')}"
-            //  src={heroContent.heroMobileImage}
-            
+            <img 
+             src={heroContent.heroMobileImage}
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="hero man"
             />
