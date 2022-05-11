@@ -49,7 +49,7 @@ const ModalOneContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src={process.env.PUBLIC_URL + "img/projects/project1.jpg"} alt="Portolio" />
+        <img src="img/projects/project1.JPG" alt="Portolio" />
         {/* Main Project Content Ends */}
       </figure>
     </div>

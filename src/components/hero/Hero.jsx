@@ -4,7 +4,7 @@ import Index from "../../components/about/index";
 
 const heroContent = {
   heroImage: "/img/hero/Ben.jpg",
-  heroMobileImage: "/img/hero/Mobile.JPG",
+  heroMobileImage: "img/hero/Mobile.JPG",
   heroTitleName: "Ben Savage",
   heroDesignation: "Full Stack Developer",
   heroDescriptions: `PNW Developer, Infrastructure Engineer and CEO`,
