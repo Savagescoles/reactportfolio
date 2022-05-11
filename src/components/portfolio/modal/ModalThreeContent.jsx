@@ -23,21 +23,21 @@ const ModalThreeContent = () => {
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-file-text-o pr-2"></i>
               <span className="project-label">Project </span>:{" "}
-              <span className="ft-wt-600 uppercase">Website</span>
+              <span className="ft-wt-600 uppercase">API</span>
             </div>
             {/* End .col */}
 
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-user-o pr-2"></i>
               <span className="project-label">Client </span>:{" "}
-              <span className="ft-wt-600 uppercase">Themeforest</span>
+              <span className="ft-wt-600 uppercase">Social Network</span>
             </div>
             {/* End .col */}
 
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-code pr-2"></i>
               <span className="project-label">Langages </span>:{" "}
-              <span className="ft-wt-600 uppercase">HTML, CSS, Javascript</span>
+              <span className="ft-wt-600 uppercase">HTML, CSS, Javascript, MongoDB, Insomnia</span>
             </div>
             {/* End .col */}
 
@@ -50,7 +50,7 @@ const ModalThreeContent = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  www.envato.com
+                 Social Networking API
                 </a>
               </span>
             </div>
@@ -61,17 +61,7 @@ const ModalThreeContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <Slider {...settings}>
-          <div className="slide_item">
-            <img src="img/projects/project-3.jpg" alt="slide 1" />
-          </div>
-          <div className="slide_item">
-            <img src="img/projects/project-2.jpg" alt="slide 1" />
-          </div>
-          <div className="slide_item">
-            <img src="img/projects/project-1.jpg" alt="slide 1" />
-          </div>
-        </Slider>
+        <img src="img/projects/project3.JPG" alt="API" />
         {/* Main Project Content Ends */}
       </figure>
     </div>

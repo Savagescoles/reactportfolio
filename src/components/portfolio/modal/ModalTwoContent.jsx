@@ -34,7 +34,7 @@ const ModalTwoContent = () => {
               <span className="project-label">Preview </span>:{" "}
               <span className="ft-wt-600 uppercase">
                 <a
-                  href="https://github.com/Savagescoles/social-network-api"
+                  href="https://savagescoles.github.io/Homework-Week4/"
                   target="_blank"
                   rel="noreferrer"
                 >
